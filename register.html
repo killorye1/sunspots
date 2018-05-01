@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+</head>
+<body>
+	<!-- Use GET, not Post-->
+	<a href="index.html">Home</a><br>
+	<h1>Sign up to learn more about sunspots</h1>
+	<form method="GET">
+	<div class="container-form">
+	
+	<div>
+		First Name: <input type="text" name="firstname"><br>
+		Last Name: <input type="text" name="lastname"><br>
+		Email: <input type="email" required name="email"><br>
+		Password: <input type="passwor" min="5" nadme="password"><br>
+		Birthday: <input type="date"><br>
+	</div>
+	<div>
+		<br>
+		Gender:<br>
+		<input type="radio" name="gender" value="male">Male<br>
+		<input type="radio" name="gender" value="female">Female<br>
+		<input type="radio" name="gender" value="other">Other<br>
+		Pets: <br>
+		<input type="checkbox" name="cat">Cat<br>
+		<input type="checkbox" name="dog">Dogs<br>
+		Cars: <br>
+		<select>
+			<option value="volvo" name="volvo">Volvo</option>
+			<option value="Audi" name="audi">Audi</option>
+		</select><br>
+		<input class="button" type="submit" value="Register">
+		<input class="button" type="reset">
+	</div>
+		</form>
+	</div>
+</body>
+</html>

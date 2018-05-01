@@ -1,0 +1,60 @@
+body{
+	margin:20px;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+.container {
+	margin: 25px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+}
+.container-form {
+	margin: 25px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	text-align: center;
+}
+h1 {
+	font-family: sans-serif;
+	font-size: 3em;
+	border-bottom: 1px solid #888888;
+	width: 50%;
+	text-align: center;
+	
+
+}
+img {
+	width: 25%;
+	height: 25%;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+input {
+	padding: 10px;
+	margin: 15px;
+}
+.button {
+	font-size: 21px;
+	height:50px;
+	width: 100px;
+	text-align: center;
+	border-style: dashed;
+	transition: all 1s;
+	color:black;
+	background-color: white;
+}
+
+.button:hover{
+	transform: scale(1.1);
+	background-color: black;
+	color: white;
+}
+
+
+
